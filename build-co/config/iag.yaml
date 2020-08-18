@@ -1,14 +1,15 @@
 ---
 version: 20.07
 
-identity:
-  oidc:
-    client_id: 11111-223-222
-    client_secret: asfwdwd
-    discovery_endpoint: "https://demo1.ice.ibmcloud.com/oidc/endpoint/default/.well-known/openid-configuration"
 server:
   ssl:
     front_end:
       certificate: 
         - "@cert.pem"
         - "@key.pem"
+
+identity:
+  oidc:
+    client_id: 11111-223-222
+    client_secret: asfwdwd
+    discovery_endpoint: "https://demo1.ice.ibmcloud.com/oidc/endpoint/default/.well-known/openid-configuration"
