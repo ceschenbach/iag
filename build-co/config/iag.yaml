@@ -7,5 +7,5 @@ identity:
     client_id: 2cbfe647-9e5f-4d99-8e05-8ec1c862eb47
     client_secret: lPP8rM8N0d
     mapped_identity: "{iss}/{sub}"
-    hostname: "test-host.apps.ocpdemo.whocp.local"
+    hostname: "cp4d-co-poc.apps.ocpdemo.whocp.local"
 
