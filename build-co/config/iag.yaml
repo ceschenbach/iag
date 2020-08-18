@@ -3,6 +3,6 @@ version: 20.07
 
 identity:
   oidc:
-    client_id: 11111-223-222
-    client_secret: asfwdwd
+    client_id: 9c561ad1-ba3b-422a-8a7b-e317e34cb03a
+    client_secret: PVmEB45Pi3
     discovery_endpoint: "https://demo1.ice.ibmcloud.com/oidc/endpoint/default/.well-known/openid-configuration"
