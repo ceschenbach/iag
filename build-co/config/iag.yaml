@@ -1,12 +1,11 @@
+---
 version: 20.07
-server:
-  ssl:
-    front_end:
-      certificate: 
-        - $CERT_PEM
-        - $KEY_PEM
+
 identity:
-  oidc:
-    client_id: $CLIENT_ID
-    client_secret: $CLIENT_SECRET
-    discovery_endpoint: "https://iag-demo.ice.ibmcloud.com/oidc/endpoint/default/.well-known/openid-configuration"
+  ci_oidc:
+    tenant: iag-dev.pre1.idng.ibmcloudsecurity.com
+    client_id: 2cbfe647-9e5f-4d99-8e05-8ec1c862eb47
+    client_secret: lPP8rM8N0d
+    mapped_identity: "{iss}/{sub}"
+    hostname: "test-host.apps.ocpdemo.whocp.local"
+
