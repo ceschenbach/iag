@@ -1,0 +1,6 @@
+version: 20.07
+resource_servers:
+  - path: /
+    servers:
+      - host: cp4d-co-poc.apps.ocpdemo.whocp.local
+        port: 443

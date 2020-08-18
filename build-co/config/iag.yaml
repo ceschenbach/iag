@@ -1,0 +1,12 @@
+version: 20.07
+server:
+  ssl:
+    front_end:
+      certificate: 
+        - $CERT_PEM
+        - $KEY_PEM
+identity:
+  oidc:
+    client_id: $CLIENT_ID
+    client_secret: $CLIENT_SECRET
+    discovery_endpoint: "https://iag-demo.ice.ibmcloud.com/oidc/endpoint/default/.well-known/openid-configuration"

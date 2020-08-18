@@ -12,5 +12,5 @@ COPY config/* /var/iag/config/
 
 # Some labels which will be associated with the image.
 LABEL maintainer="iag@acme.com" \
-    vendor="ACME"
+    vendor="IBM Watson Health"
 

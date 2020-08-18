@@ -1,0 +1,7 @@
+version: 20.07
+logging:
+  json_logging: false
+  tracing:
+    - file_name: /var/tmp/snoop.log
+      component: pdweb.snoop
+      level: 9
