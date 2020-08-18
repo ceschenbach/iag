@@ -1,13 +1,6 @@
 ---
 version: 20.07
 
-server:
-  ssl:
-    front_end:
-      certificate: 
-        - "@cert.pem"
-        - "@key.pem"
-
 identity:
   oidc:
     client_id: 11111-223-222
